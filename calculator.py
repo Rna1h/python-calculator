@@ -37,7 +37,7 @@ window.title("Calculator")
 window.rowconfigure(0, minsize=80, weight=1)
 window.columnconfigure([0, 1, 2, 3], minsize=50, weight=1)
 
-"""calculation window"""
+"""calculator window"""
 label1 = tk.Label(master=window, text=" ")
 label1.grid(row=0, column=3, sticky="nswe")
 
